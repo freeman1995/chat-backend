@@ -1,0 +1,54 @@
+{
+  "name": "@freeman1995/chat-backend",
+  "version": "0.1.0",
+  "dependencies": {
+    "@blueprintjs/core": "^3.45.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "stream-chat": "^3.10.0",
+    "stream-chat-react": "^6.0.6",
+    "styled-components": "^5.3.0",
+    "styled-tools": "^1.7.2",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.20.14",
+    "@types/react": "^17.0.9",
+    "@types/react-dom": "^17.0.6",
+    "@types/styled-components": "^5.1.9",
+    "prettier": "^2.3.0",
+    "ts-loader": "^9.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeman1995/chat-backend.git"
+  }
+}
